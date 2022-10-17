@@ -1,0 +1,93 @@
+/*Обнуление*/
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+*,*:before,*:after{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*Обнуление*/
+body{
+    padding: 30px 0 30px 0;
+    background-color: #fec356;
+    font-size: 18px;
+    line-height: 1.75;
+    text-align: justify;
+    font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
+    color: brown;
+}
+.content{
+    max-width: 800px;
+    margin: 0 auto;
+}
+.family{
+    margin: 0 0 50px 0;
+}
+.homer{
+    margin: 0 0 50px 0;
+}
+.bart{
+    margin: 0 0 50px 0;
+}
+.lisa{
+    margin: 0 0 50px 0;
+}
+.heading_1{
+    font-size: 64px;
+    font-weight: 700;
+    text-align: center;
+    color: black;
+    opacity: 0.6;
+}
+h2{
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: underline;
+    color: black;
+    opacity: 0.6;
+}
+.phrases{
+    text-decoration: none;
+    text-align: left;
+    margin: 15px 0 15px 0;
+}
+.simp_img{
+    width: 400px;
+}
+.phrases_ul{
+    font-style: italic;
+    color: mediumvioletred;
+}
+.content footer{
+    text-align: right;
+    font-size: 12px;
+    color: black;
+}
+
