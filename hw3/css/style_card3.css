@@ -1,0 +1,203 @@
+/*Обнуление*/
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:focus, :active {
+    outline: none;
+}
+
+a:focus, a:active {
+    outline: none;
+}
+
+nav, footer, header, aside {
+    display: block;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+    font-family: inherit;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+a, a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: inherit;
+    font-weight: 400;
+}
+
+/*Обнуление*/
+.w-base {
+    width: 100%;
+}
+
+.w-180 {
+    width: 180px;
+}
+
+.w-240 {
+    width: 240px;
+}
+
+.w-260 {
+    width: 260px;
+}
+
+.w-400 {
+    width: 400px;
+}
+
+.h-base {
+    height: 100%;
+}
+
+.h-60 {
+    height: 60px;
+}
+
+.h-180 {
+    height: 180px;
+}
+
+.h-200 {
+    height: 200px;
+}
+
+.l-grey {
+    background-color: #ced8e1;
+}
+
+.d-blue {
+    background-color: #122d3f;
+}
+
+.m-purple {
+    background-color: #6a65e2;
+}
+
+.bdr-15px {
+    border-radius: 15px;
+}
+
+.dis-flex {
+    display: flex;
+}
+
+.jsf-cnt-cntr {
+    justify-content: center;
+}
+
+.anlg-itms-cntr {
+}
+
+.mrn-top-180 {
+    margin: 180px 0 0 0;
+}
+
+body {
+    margin: 30px;
+}
+
+.conteiner {
+    width: 1080px;
+    margin: 0 auto;
+}
+
+.header {
+    height: 300px;
+    justify-content: space-around;
+    column-gap: 500px;
+    padding: 30px 0 0 0;
+}
+
+.icons {
+    column-gap: 20px;
+    font-size: 30px;
+    color: #6a65e2;
+}
+
+.blocks {
+    flex-direction: column;
+}
+
+.sq_card {
+    position: relative;
+}
+
+.first-block {
+    column-gap: 50px;
+    position: relative;
+    top: -90px;
+}
+
+.second-block {
+    column-gap: 50px;
+    row-gap: 100px;
+    flex-wrap: wrap;
+}
+
+.third-block {
+    column-gap: 70px;
+    row-gap: 100px;
+    flex-wrap: wrap;
+}
+
+.fourth-block {
+    column-gap: 45px;
+}
+
+.fifth-block {
+    justify-content: flex-start;
+    column-gap: 50px;
+}
+
+.round_card {
+    border-radius: 50%;
+    margin: 0 0 0 105px;
+}
