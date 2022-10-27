@@ -1,0 +1,32 @@
+@media screen and (max-width: 767px) {
+    .content {
+        max-width: none;
+        row-gap: 40px;
+    }
+
+    .header {
+        width: 100%;
+        max-height: 120px;
+    }
+
+    .main-block {
+        width: 100%;
+        flex-direction: column;
+        row-gap: 40px;
+    }
+
+    .left-block {
+        width: 100%;
+        max-height: 400px;
+        row-gap: 40px;
+    }
+
+       .left-bottom {
+        column-gap: 40px;
+    }
+
+    .right-block {
+        width: 100%;
+        max-height: 120px;
+    }
+}
