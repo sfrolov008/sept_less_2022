@@ -1,0 +1,122 @@
+.dis-f {
+    display: flex;
+}
+
+.f-dir-col {
+    flex-direction: column;
+}
+
+.jc-c {
+    justify-content: center;
+}
+
+.ai-c {
+    align-items: center;
+}
+
+.l-grey {
+    background: #686868;
+}
+
+.w-base {
+    width: 100%;
+}
+
+.h-base {
+    height: 100%;
+}
+
+.rgap-20 {
+    row-gap: 20px;
+}
+
+.cgap-20 {
+    column-gap: 20px;
+}
+
+p {
+    font-size: 36px;
+    color: #ff6a00;
+}
+
+.content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.head {
+    height: 150px;
+}
+
+.logo {
+    flex: 0 1 20%;
+}
+
+.header {
+    flex: 0 1 80%;
+}
+
+.main-block {
+    height: 1170px;
+}
+
+.left-sidebar {
+    flex: 0 1 20%;
+}
+
+.left-side-top {
+    flex: 0 1 70%;
+}
+
+.nav {
+    flex: 0 1 100%;
+}
+
+.left-side-bottom {
+    flex: 0 1 30%;
+}
+
+.store-loc {
+    flex: 0 1 50%;
+}
+
+.tools {
+    flex: 0 1 50%;
+}
+
+.main-block-content {
+    flex: 0 1 80%;
+}
+
+.main-block-content-top {
+    height: 30%;
+}
+
+.bsi {
+    flex: 0 1 60%;
+}
+
+.ad {
+    flex: 0 1 40%;
+}
+
+.main-block-content-primary {
+    height: 70%;
+}
+
+.t-o-b {
+    flex: 0 1 60%;
+}
+
+.rel-prod {
+    flex: 0 1 40%;
+}
+
+.left-side-bottom-ghost {
+    display: none;
+}
+
+.footer {
+    height: 200px;
+}
